@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --bg: #16120e;
+    --surface: #211b15;
+    --surface-elevated: #2a231c;
+    --border: #382f26;
+    --text: #f2ebe0;
+    --text-muted: #b3a796;
+    --accent: #c9a063;
+  }
+
+  body {
+    background-color: #16120e;
+    color: #f2ebe0;
+    font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Instrument Serif', Georgia, serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+}

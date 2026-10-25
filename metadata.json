@@ -1,0 +1,6 @@
+{
+  "name": "Open House",
+  "description": "Turn phone photos of a home into a walkable 3D tour with golden-hour edits powered by Gemini 4 Argon and the Open House harness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
